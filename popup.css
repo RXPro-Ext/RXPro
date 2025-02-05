@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #app {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  #subscription-tier {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .features {
+    margin-top: 20px;
+  }
+  
+  .feature {
+    margin-bottom: 15px;
+  }
+  
+  .feature-label {
+    font-size: 16px;
+  }
+  
+  .feature-toggle {
+    margin-left: 10px;
+  }
+  
+  .subscription {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .subscription button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .subscription button:hover {
+    background-color: #2980b9;
+  }
+  

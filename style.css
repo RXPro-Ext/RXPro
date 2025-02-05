@@ -1,0 +1,71 @@
+/* Free User Theme */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Pro User Theme (Animated) */
+body {
+    background: linear-gradient(45deg, #ff6b6b, #ffcc5c);
+    animation: backgroundAnimation 5s ease infinite;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background: linear-gradient(45deg, #ff6b6b, #ffcc5c);
+    }
+    50% {
+        background: linear-gradient(45deg, #48c6ef, #6f86d6);
+    }
+    100% {
+        background: linear-gradient(45deg, #ff6b6b, #ffcc5c);
+    }
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.1);
+}
+
+/* Elite User Theme (Custom and Animated) */
+body {
+    background: url('https://path/to/your/custom/animated/background.gif') no-repeat center center fixed;
+    background-size: cover;
+    animation: customBackground 10s infinite;
+}
+
+@keyframes customBackground {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+button {
+    background-color: #6f42c1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5a32a3;
+    transform: rotate(10deg);
+}

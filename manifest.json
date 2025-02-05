@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "RX Extension",
+  "description": "Roblox Extension with game pass checker",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "https://your-server.com/*" 
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/rxpro.png"
+  },
+  "icons": {
+    "16": "icons/rxpro.png",
+    "48": "icons/rxpro.png",
+    "128": "icons/rxpro.png"
+  }
+}
